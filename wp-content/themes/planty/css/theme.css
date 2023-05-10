@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=Courgette&family=Dancing+Script&family=Roboto:wght@100;400&family=Satisfy&display=swap');
+
+body * {
+    font-family: 'syne';
+}
+
+/********** HEADER **********/
+.header-titles {
+    width: 45% !important;
+}
+
+.entry-header {
+    background-color: #ECE2DA !important;
+}
+
+h1 {
+    margin: auto auto 0 auto !important;
+    
+}
+
+li.menu-item a {
+    color: #000000 !important;
+    font-size: 1.2em;
+    display: inline-bock;
+    text-align: center;
+    padding: 15px;
+}
+ 
+ li.menu-item a:hover,
+ li.menu-item.current-menu-item a {
+    color: #FFFFFF !important;
+    background-color: #DC9F96;
+    text-decoration: none;
+}
+
+/********** FOOTER **********/
+footer a {
+    color: black;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: center;
+}
+
+/********** CONTENT **********/
+section:not(.waste) {
+    margin-bottom: 2em !important;
+    border-radius: 33% 33% 30% 30% / 0% 0% 10% 10%  !important;
+    box-shadow: 0 5px 5px #b79e79;
+    padding: 0 0 10px 0 !important;
+    z-index: -2;
+}
+
+.waste {
+    border-radius: 15% 15% 15% 15% / 0% 0% 3% 3%;
+    padding: 30px 0 30px 0 !important;
+}
+
+.waste, .endSection {
+    margin-top: 2em !important;
+}
+
+.description {
+    letter-spacing: 1.3em;
+    font-weight: 800;
+}
+
+.texte {
+    width: 280px !important;
+    line-height: 1em !important;
+    margin-left: 4em !important;
+}
+
+.box {
+    margin: auto !important;
+    display: block;
+}
+
+
+.img {
+    border: solid #ffffff 3px;
+}
+
+.wp-image-83, .wp-image-82 {
+    width: 400px !important;
+    height: 270px !important;
+    object-fit: contain;
+}
+
+
+
+
