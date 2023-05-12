@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=Courgette&family=Dancing+Script&family=Roboto:wght@100;400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap');
 
 body * {
-    font-family: 'syne';
+    font-family: 'syne' !important;
 }
 
 /********** HEADER **********/
@@ -11,18 +11,19 @@ body * {
 
 .entry-header {
     background-color: #ECE2DA !important;
+    padding: 2.5em 0 0 0 !important;
 }
 
 h1 {
-    margin: auto auto 0 auto !important;
-    
+    margin: auto !important;
+    color: #3B8E46;
+    font-size: 1.7em !important;
+    max-width: 610px !important;
 }
 
 li.menu-item a {
     color: #000000 !important;
     font-size: 1.2em;
-    display: inline-bock;
-    text-align: center;
     padding: 15px;
 }
  
@@ -42,50 +43,98 @@ footer a {
 }
 
 /********** CONTENT **********/
-section:not(.waste) {
+section:not(.waste) { /*********** Première Section **********/
     margin-bottom: 2em !important;
     border-radius: 33% 33% 30% 30% / 0% 0% 10% 10%  !important;
-    box-shadow: 0 5px 5px #b79e79;
-    padding: 0 0 10px 0 !important;
+    box-shadow: 0 5px 0 #e3d9d0;
     z-index: -2;
+    padding: 0 !important;
 }
 
-.waste {
-    border-radius: 15% 15% 15% 15% / 0% 0% 3% 3%;
-    padding: 30px 0 30px 0 !important;
+.box { /********** Contenu englobant img cannette **********/
+    display: block !important;
+    align-items: center !important;
+    margin-top: 0 !important ;
+    padding-top: 0 !important;
 }
 
-.waste, .endSection {
-    margin-top: 2em !important;
-}
-
-.description {
-    letter-spacing: 1.3em;
-    font-weight: 800;
-}
-
-.texte {
-    width: 280px !important;
-    line-height: 1em !important;
-    margin-left: 4em !important;
-}
-
-.box {
-    margin: auto !important;
-    display: block;
-}
-
-
-.img {
-    border: solid #ffffff 3px;
+.qodef-m-images { /********** Img canette **********/
+    display: flex !important;
+    justify-content: center !important;
 }
 
 .wp-image-83, .wp-image-82 {
     width: 400px !important;
     height: 270px !important;
     object-fit: contain;
+    transform: none !important;
+    -webkit-transform: none !important;
 }
 
+.waste { /********** Section des goûts **********/
+    border-radius: 15% 15% 15% 15% / 0% 0% 3% 3%;
+    padding: 30px 0 30px 0 !important;
+}
 
+.intitulePam { /********** Text gras blanc pamplemousse **********/
+    width: 400px !important;
+}
+
+.intituleFram { /********** Text gras blanc pamplemousse **********/
+    width: 280px !important;
+}
+
+.description {  /********** Espacement lettre des fruits **********/
+    letter-spacing: 0.7em;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+.qodef-m-text { /*********** Texte commander **********/
+    font-size: 22px !important;
+    padding: 10px;
+}
+
+.button:hover {
+    text-decoration: none !important;
+}
+
+.waste, .endSection {
+    margin-top: 2em !important;
+}
+
+.endSection, .description, h1, .wasteTitle strong {
+    font-weight: 800 !important;
+}
+
+.subtitle { /********** Contenu de la dernière section **********/
+    width: 330px !important;
+    margin-top: 0.2em !important;
+    line-height: 1em !important;
+}
+
+.text {
+    margin: 0 2em !important;
+}
+
+.p, .qodef-m-text, li.menu-item a  { 
+    font-weight: 400 !important;
+}
+
+.title { /********** Prénom dernière section **********/
+    font-weight: 700 !important;
+    padding-top: 1em !important;
+}
+
+/********** Masquer contenu Edit **********/
+.entry-content > .alignfull:not(.wp-block-group.has-background), footer {
+    margin :0 !important;
+}
+.post-meta-wrapper {
+    display: none;
+}
 
 
