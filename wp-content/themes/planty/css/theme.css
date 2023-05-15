@@ -43,9 +43,12 @@ footer a {
 }
 
 /********** CONTENT **********/
-section:not(.waste) { /*********** Première Section **********/
-    margin-bottom: 2em !important;
+section:not(.waste), .meetUs { /*********** Première Section: Page Accueil et Nous Rencontrer **********/
     border-radius: 33% 33% 30% 30% / 0% 0% 10% 10%  !important;
+}
+
+section:not(.waste) {
+    margin-bottom: 2em !important;
     box-shadow: 0 5px 0 #e3d9d0;
     z-index: -2;
     padding: 0 !important;
@@ -74,6 +77,7 @@ section:not(.waste) { /*********** Première Section **********/
 .waste { /********** Section des goûts **********/
     border-radius: 15% 15% 15% 15% / 0% 0% 3% 3%;
     padding: 30px 0 30px 0 !important;
+    background-color: #ECE2DA !important;
 }
 
 .intitulePam { /********** Text gras blanc pamplemousse **********/
@@ -91,8 +95,8 @@ section:not(.waste) { /*********** Première Section **********/
 .button {
     display: flex;
     justify-content: center;
-
 }
+
 .qodef-m-text { /*********** Texte commander **********/
     font-size: 22px !important;
     padding: 10px;
@@ -106,7 +110,7 @@ section:not(.waste) { /*********** Première Section **********/
     margin-top: 2em !important;
 }
 
-.endSection, .description, h1, .wasteTitle strong {
+.endSection, .description, h1, .wasteTitle strong, .meetUs .title {
     font-weight: 800 !important;
 }
 
@@ -124,7 +128,7 @@ section:not(.waste) { /*********** Première Section **********/
     font-weight: 400 !important;
 }
 
-.title { /********** Prénom dernière section **********/
+.title, .formTitle { /********** Prénom dernière section **********/  /**** Titre nous contacter *******/
     font-weight: 700 !important;
     padding-top: 1em !important;
 }
@@ -137,4 +141,81 @@ section:not(.waste) { /*********** Première Section **********/
     display: none;
 }
 
+/********** PAGE NOUS RENCONTRER **********/
+.post-35 .entry-title { 
+    display: none;
+}
 
+.post-35 .entry-header {
+    padding: 0 !important;
+}
+
+.meetUs .p, .meetUs .title {
+    max-width: 750px !important;
+}
+
+.meetUs .title {
+    padding-top: 3em !important;
+    font-size: 2em !important;
+}
+
+.meetUs .p {
+    margin-top: 1.3em !important;
+}
+
+.meetUs .alignleft { /********** Placement Image Fleur: Page Commander **********/
+    margin: 0 5% 0 0 !important;
+}
+
+.teamSection {
+    max-width: 100%;
+}
+
+.imgContent {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: -3em !important;
+    bottom: -20.5em !important;
+}
+
+.formSection {
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #ECE2DA !important;
+    z-index: 1 !important;
+    position: relative;
+}
+
+.banner {
+    background-color: #ECE2DA;
+}
+
+.wpcf7 {
+    width: 500px;
+    margin: auto;
+}
+
+label {
+    margin: 1em 0;
+}
+
+.formSection .button {
+    width: 250px !important;
+}
+
+textarea {
+    height: 300px;
+}
+
+input, textarea {
+    margin-top: 1em !important;
+}
+
+.imageContent {
+    position: absolute;
+    bottom: 3em;
+    left: 22em;
+    z-index: -1 !important;
+}
