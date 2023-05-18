@@ -221,7 +221,7 @@ input, textarea {
 }
 
 /********** Page Commander **********/
-#post-37, .wp-block-contact-form-7-contact-form-selector {
+#post-37, .post-37 .wp-block-contact-form-7-contact-form-selector {
     max-width: 100% !important;
     background-color: #3B8E46;
 }
@@ -273,15 +273,21 @@ input, textarea {
 .infoSection {
     display: flex;
     justify-content: space-between;
+    margin-top: 2em;
 }
 
-.cardInformation input, .cardInformation textarea {
+.cardInformation input {
     height: 50px;
-    padding: 1em;
+    padding: 1.2em;
 }
 
 .cardInformation {
     width: 650px;
+    padding-top: 2em;
+}
+
+.cardInformation p {
+    font-size: 1.3em;
 }
 
 input[type="number"] {
@@ -339,3 +345,7 @@ input[type="number"] {
     align-items: center;
 }
 
+.formulaire label {
+    margin-bottom: 2em;
+    font-size: 1em;
+}
