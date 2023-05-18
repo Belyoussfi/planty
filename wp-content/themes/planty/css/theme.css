@@ -192,7 +192,7 @@ section:not(.waste) {
     background-color: #ECE2DA;
 }
 
-.wpcf7 {
+.formSection .wpcf7 {
     width: 500px;
     margin: auto;
 }
@@ -215,7 +215,59 @@ input, textarea {
 
 .imageContent {
     position: absolute;
-    bottom: 3em;
+    bottom: 2em;
     left: 22em;
     z-index: -1 !important;
 }
+
+/********** Page Commander **********/
+.post-37 .wp-block-contact-form-7-contact-form-selector {
+    max-width: 100% !important;
+}
+
+.formulaire {
+    padding: 70px;
+}
+
+.imgForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenuImage {
+    display: flex;
+    justify-content: center;
+    width: auto !important;
+    height: 260px !important;
+}
+
+.contenuImage img {
+    width: 300px !important;
+    position: relative;
+    margin: 0 !important;
+}
+
+.imgForm .fruit, .imgForm .fruitF  {
+    top: 390px; 
+}
+
+.imgForm .fruitF {
+    width: 150px;
+}
+
+.imgForm .fruit {
+    width: 190px;
+}
+
+.imgForm p {
+    position: absolute;
+    z-index: 1 !important;
+    top: 410px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+
+
