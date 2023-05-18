@@ -221,8 +221,9 @@ input, textarea {
 }
 
 /********** Page Commander **********/
-.post-37 .wp-block-contact-form-7-contact-form-selector {
+#post-37, .wp-block-contact-form-7-contact-form-selector {
     max-width: 100% !important;
+    background-color: #3B8E46;
 }
 
 .formulaire {
@@ -269,5 +270,72 @@ input, textarea {
     letter-spacing: 0.2em;
 }
 
+.infoSection {
+    display: flex;
+    justify-content: space-between;
+}
 
+.cardInformation input, .cardInformation textarea {
+    height: 50px;
+    padding: 1em;
+}
+
+.cardInformation {
+    width: 650px;
+}
+
+input[type="number"] {
+    width: 100px;
+    height: 100% !important;
+    outline: none !important;
+    border: none !important;
+    margin: 0 !important;
+}
+
+.afterPlus::after, .afterMoins::after {
+  background-color: #DC9F96 !important;
+  color: #FFFFFF !important;
+  position: absolute !important;
+  padding: 0 0.3em !important;
+}
+
+.afterPlus::after, .afterMoins::after {
+    left: 9em !important;
+} 
+
+.afterPlus::after {
+    content: "+";
+    top: 27.4em !important;
+}
+
+.afterMoins::after {
+    content: "-";
+    top: 28.97em !important;
+}
+
+.secAfterPlus::after, .secAfterMoins::after {
+    left: 25.8em !important;
+}
+
+.thAfterPlus::after, .thAfterMoins::after {
+    left: 42.7em !important;
+}
+
+.fhAfterPlus::after, .fhAfterMoins::after {
+    left: 59.55em !important;
+}
+
+.boutonOrder {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    height: 65px;
+}
+
+.orderBtn {
+    background-color: #E0B9B4;
+    padding: 2em !important;
+    display: flex;
+    align-items: center;
+}
 
