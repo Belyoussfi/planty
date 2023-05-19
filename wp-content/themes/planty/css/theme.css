@@ -110,7 +110,7 @@ section:not(.waste) {
     margin-top: 2em !important;
 }
 
-.endSection, .description, h1, .wasteTitle strong, .meetUs .title {
+.endSection, .description, h1, .wasteTitle strong, .meetUs .title, .post-37 h1 {
     font-weight: 800 !important;
 }
 
@@ -124,7 +124,7 @@ section:not(.waste) {
     margin: 0 2em !important;
 }
 
-.p, .qodef-m-text, li.menu-item a  { 
+.p, .qodef-m-text, li.menu-item a, .cardInformation label  { 
     font-weight: 400 !important;
 }
 
@@ -163,7 +163,7 @@ section:not(.waste) {
     margin-top: 1.3em !important;
 }
 
-.meetUs .alignleft { /********** Placement Image Fleur: Page Commander **********/
+.meetUs .alignleft { /********** Placement Image Fleur: Page Nous rencontrer **********/
     margin: 0 5% 0 0 !important;
 }
 
@@ -221,18 +221,28 @@ input, textarea {
 }
 
 /********** Page Commander **********/
-#post-37, .post-37 .wp-block-contact-form-7-contact-form-selector {
+#post-37, .post-37 .wp-block-contact-form-7-contact-form-selector, #post-37 .entry-header {
     max-width: 100% !important;
-    background-color: #3B8E46;
+    background-color: #3B8E46 !important; 
+}
+
+.post-37 h1 {
+    text-transform: uppercase;
+    font-size: 2em !important;
+    color: #FFFFFF;
 }
 
 .formulaire {
     padding: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 .imgForm {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2em;
+    border-bottom: solid #FFFFFF 1px;
 }
 
 .contenuImage {
@@ -244,12 +254,15 @@ input, textarea {
 
 .contenuImage img {
     width: 300px !important;
-    position: relative;
     margin: 0 !important;
 }
 
-.imgForm .fruit, .imgForm .fruitF  {
-    top: 390px; 
+.imgForm p {
+    top: 25em;
+}
+
+.imgForm .fruitF, .imgForm .fruit {
+    top: 24em;
 }
 
 .imgForm .fruitF {
@@ -262,40 +275,51 @@ input, textarea {
 
 .imgForm p {
     position: absolute;
-    z-index: 1 !important;
-    top: 410px;
     font-weight: 900;
-    color: #FFFFFF;
-    text-align: center;
     letter-spacing: 0.2em;
+    text-align: center;
 }
 
 .infoSection {
     display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
-}
-
-.cardInformation input {
-    height: 50px;
-    padding: 1.2em;
+    margin-top: 3em;
 }
 
 .cardInformation {
-    width: 650px;
-    padding-top: 2em;
+    border-right: solid #FFFFFF 1px;
+    width: 100%;
+    padding: 0 3em 0 0 !important;
 }
 
-.cardInformation p {
-    font-size: 1.3em;
+.card {
+    padding: 0 0 0 3em !important;
+    border: none;
+}
+
+.cardInformation p, .formulaire > p {
+    font-size: 1.2em;
+    margin: 0 !important;
+    font-weight: 700;
+}
+
+.cardInformation label, .cardInformation p, .formulaire > p, .imgForm p {
+    color: #FFFFFF;
+}
+
+.formulaire > p {
+    padding: 1.5em 0;
+    border-top: solid #FFFFFF 1px;
 }
 
 input[type="number"] {
     width: 100px;
     height: 100% !important;
+    margin: 0 !important;
+}
+
+.cardInformation input {
     outline: none !important;
     border: none !important;
-    margin: 0 !important;
 }
 
 .afterPlus::after, .afterMoins::after {
@@ -311,12 +335,12 @@ input[type="number"] {
 
 .afterPlus::after {
     content: "+";
-    top: 27.4em !important;
+    top: 33.1em !important;
 }
 
 .afterMoins::after {
     content: "-";
-    top: 28.97em !important;
+    top: 34.7em !important;
 }
 
 .secAfterPlus::after, .secAfterMoins::after {
@@ -345,7 +369,12 @@ input[type="number"] {
     align-items: center;
 }
 
-.formulaire label {
-    margin-bottom: 2em;
+.cardInformation label {
     font-size: 1em;
+    margin: 1.5em 0 0 0 !important;
+}
+
+.order {
+    margin: 2em auto 0 auto !important;
+    text-transform: capitalize !important;
 }
