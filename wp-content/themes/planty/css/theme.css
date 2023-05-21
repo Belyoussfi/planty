@@ -26,13 +26,9 @@ li.menu-item a {
     font-size: 1.2em;
     padding: 15px;
 }
- 
- li.menu-item a:hover,
- li.menu-item.current-menu-item a {
-    color: #FFFFFF !important;
-    background-color: #DC9F96;
-    text-decoration: none;
-}
+
+
+
 
 /********** FOOTER **********/
 footer a {
@@ -92,11 +88,6 @@ section:not(.waste) {
     letter-spacing: 0.7em;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-}
-
 .qodef-m-text { /*********** Texte commander **********/
     font-size: 22px !important;
     padding: 10px;
@@ -124,7 +115,7 @@ section:not(.waste) {
     margin: 0 2em !important;
 }
 
-.p, .qodef-m-text, li.menu-item a, .cardInformation label /*label: Page commande*/, .orderBtn /*Btn OK: page commande*/, .order { 
+.p, .envoyer, .qodef-m-text, li.menu-item a, .cardInformation label /*label: Page commande*/, .orderBtn /*Btn OK: page commande*/, .order { 
     font-weight: 400 !important;
 }
 
@@ -180,15 +171,13 @@ section:not(.waste) {
 }
 
 .formSection {
-    margin: 0 !important;
     width: 100% !important;
     max-width: 100% !important;
-    background-color: #ECE2DA !important;
     z-index: 1 !important;
     position: relative;
 }
 
-.banner {
+.banner, .formSection {
     background-color: #ECE2DA;
 }
 
@@ -199,10 +188,6 @@ section:not(.waste) {
 
 label {
     margin: 1em 0;
-}
-
-.formSection .button {
-    width: 250px !important;
 }
 
 textarea {
@@ -362,7 +347,7 @@ input[type="number"] {
     height: 65px;
 }
 
-.orderBtn, .order {
+.orderBtn, .order/*Page commander*/, .envoyer /*(page nous rencontrer*/ {
     background-color: #E0B9B4 !important;
 }
 
@@ -379,5 +364,17 @@ input[type="number"] {
 
 .order {
     margin: 2em auto 0 auto !important;
+}
+
+.order, .envoyer, .button {
     text-transform: capitalize !important;
+    width: 280px !important;
+}
+
+.formSection input[type="submit"], .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
 }
