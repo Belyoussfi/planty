@@ -94,12 +94,7 @@ section:not(.waste) {
     letter-spacing: 0.7em;
 }
 
-.qodef-m-text { /*********** Texte commander **********/
-    font-size: 22px !important;
-    padding: 10px;
-}
-
-.button:hover {
+.button:hover, .envoyer:hover, .order:hover {
     text-decoration: none !important;
 }
 
@@ -121,7 +116,8 @@ section:not(.waste) {
     margin: 0 2em !important;
 }
 
-.p, .envoyer, .qodef-m-text, li.menu-item a, .cardInformation label /*label: Page commande*/, .orderBtn /*Btn OK: page commande*/, .order { 
+.p, .envoyer, .qodef-m-text, li.menu-item a, .cardInformation label 
+/*label: Page commande*/, .orderBtn /*Btn OK: page commande*/, .order { 
     font-weight: 400 !important;
 }
 
@@ -372,9 +368,11 @@ input[type="number"] {
     margin: 2em auto 0 auto !important;
 }
 
-.order, .envoyer, .button {
+.order, .envoyer, .btn {
     text-transform: capitalize !important;
     width: 280px !important;
+    font-size: 1em !important;
+    padding: 1em !important;
 }
 
 .formSection input[type="submit"], .button {
