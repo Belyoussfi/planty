@@ -581,4 +581,77 @@ input[type="number"] {
         top: 25em !important;
         left: 2em !important;
     }
+
+    /***** Page Commander *****/
+    .imgForm {
+        flex-wrap: wrap;
+    }
+
+    .contenuImage {
+        width: 250px !important;
+    }
+
+    .afterPlus::after {
+        top: 32.80em !important;
+    }
+
+    .afterMoins::after {
+        top: 34.45em !important
+    }
+
+    .secAfterMoins::after, .secAfterPlus::after   {
+        left: 23.2em !important;
+    }
+
+    .thAfterPlus::after, .thAfterMoins::after {
+        left: 8.95em !important;
+    }
+
+    .thAfterPlus::after {
+        top: 48.8em !important;
+    }
+
+    .thAfterMoins::after {
+        top: 50.5em !important;
+    }
+
+    .fhAfterMoins::after, .fhAfterPlus::after {
+        left: 23.2em !important;
+    }
+
+    .fhAfterPlus::after {
+        top: 48.80em !important;
+    }
+
+    .fhAfterMoins::after {
+        top: 50.45em !important;
+    }
+
+    .imgForm .fraise  {
+        top: 25em;
+    }
+
+    .imgForm .fruit {
+        top: 24.5em;
+    }
+ 
+    .imgForm .citron {
+        top: 41em;
+    }
+
+    .imgForm .fruitF {
+        top: 40.5em;
+    }
+
+    .card {
+        padding-left: 0.5em !important;
+    }
+
+    .cardInformation {
+        padding-right: 0.5em !important;
+    }
+
+    .cardInformation p {
+        font-size: 0.8em;
+    }
 }
