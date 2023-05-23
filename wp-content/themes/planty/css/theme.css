@@ -539,3 +539,25 @@ input[type="number"] {
         padding-top: 1em !important;
     }
 }
+
+/********** RESPONSIVE DESIGN TABLET **********/
+@media screen and (min-width:768px) and (max-width:992px) {
+    /***** Page Accueil *****/
+    .wp-image-83, .wp-image-82 {
+        top: -11em !important;
+        position: absolute;
+    }
+
+    .wp-image-83 {
+        right: 5em !important;
+    }
+
+    .wp-image-82 {
+        right: -5em !important;
+    }
+
+    .bloc-colonne {
+        display: flex;
+        justify-content: center;
+    }
+}
