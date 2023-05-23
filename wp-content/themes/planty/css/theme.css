@@ -560,4 +560,25 @@ input[type="number"] {
         display: flex;
         justify-content: center;
     }
+
+    /***** Page Nous Rencontrer *****/
+    .meetUs .title {
+        font-size: 1.2em !important;
+    }
+
+    .meetUs .p {
+        width: 470px !important;
+        margin-left: 10em !important;
+    }
+
+    .imgContent{
+        top: 40em !important;
+        right: 0.2em !important;
+        width: 200px !important;
+    }
+
+    .imageContent {
+        top: 25em !important;
+        left: 2em !important;
+    }
 }
