@@ -382,7 +382,7 @@ input[type="number"] {
     margin: auto;
 }
 
-/********** RESPONSIVE DESIGN **********/
+/********** RESPONSIVE DESIGN MOBILE: PAGE ACCUEIL **********/
 @media screen and (min-width: 320px) and (max-width: 767px) {
     h1 {
         font-size: 1em !important;
@@ -427,6 +427,31 @@ input[type="number"] {
     .subtitle {
         width: auto !important;
         margin-right: 0 !important;
+    }
+    /********** PAGE NOUS RENCONTRER **********/
+    .meetUs .title {
+        padding-top: 0 !important;
+        display: flex;
+        flex-direction: column;
+        font-size: 1em !important;
+    }
+
+    .imgContent {
+        right: 1em !important;
+        top: 18em !important;
+    }
+
+    .formTitle {
+        font-size: 1em !important;
+    }
+
+    .formSection .wpcf7 {
+        width: auto !important;
+    }
+
+    .imageContent {
+        bottom: -1em;
+        left: 0;
     }
 
     
