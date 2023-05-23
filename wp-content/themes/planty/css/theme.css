@@ -382,6 +382,7 @@ input[type="number"] {
     margin: auto;
 }
 
+
 /********** RESPONSIVE DESIGN MOBILE: PAGE ACCUEIL **********/
 @media screen and (min-width: 320px) and (max-width: 767px) {
     h1 {
@@ -453,6 +454,88 @@ input[type="number"] {
         bottom: -1em;
         left: 0;
     }
+    /********** PAGE COMMANDER **********/
+    #post-37 h1 {
+        font-size: 1em !important;
+    }
 
+    .formulaire {
+        width: auto !important;
+        padding: 0 !important;
+    }
+
+    .imgForm {
+        flex-direction: column;
+    }
+
+    .imgForm p {
+        width: 180px !important;
+    }
+
+    .imgForm .fraise {
+        top: 24em;
+    }
+ 
+    .imgForm .citron {
+        top: 79em;
+    }
+
+    .imgForm .fruit {
+        top: 42em;
+    }
+
+    .imgForm .fruitF {
+        top: 60em;
+        width: 120px !important;
+    }
+
+    .afterPlus::after, .afterMoins::after {
+        left: 5.60em !important;
+    } 
+
+    .afterPlus::after {
+        top: 32.15em !important;
+    }
+
+    .secAfterMoins::after {
+        top: 52.8em !important;
+    }
+
+    .secAfterPlus::after {
+        top: 50.65em !important;
+    }    
     
+    .thAfterPlus::after {
+        top: 69.1em !important;
+    }
+
+    .thAfterMoins::after {
+        top: 71.3em !important;
+    }
+    
+    .fhAfterPlus::after {
+        top: 87.65em !important;
+    }
+
+    .fhAfterMoins::after {
+        top: 89.8em !important
+    }
+
+    .infoSection {
+        flex-direction: column;
+    }
+
+    .card, .cardInformation {
+        padding: 0 !important;
+    }
+
+    .cardInformation {
+        border-right: none;
+    }
+
+    .card {
+        margin-top: 1.5em !important;
+        border-top: solid 1px #FFFFFF !important;
+        padding-top: 1em !important;
+    }
 }
