@@ -331,15 +331,15 @@ input[type="number"] {
 }
 
 .secAfterPlus::after, .secAfterMoins::after {
-    left: 25.8em !important;
+    left: 26.1em !important;
 }
 
 .thAfterPlus::after, .thAfterMoins::after {
-    left: 42.7em !important;
+    left: 43.25em !important;
 }
 
 .fhAfterPlus::after, .fhAfterMoins::after {
-    left: 59.55em !important;
+    left: 60.4em !important;
 }
 
 .boutonOrder /*bouton Ok + quantité */ {
